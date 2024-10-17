@@ -5,4 +5,5 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "From the cloud!"}
+    return {"Hello": "From the cloud! \n \
+            Now I update fast and automatically: CI/CD"}
