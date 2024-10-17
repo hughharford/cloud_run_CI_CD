@@ -6,4 +6,4 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"Hello": "From the cloud! \n \
-            Update, please: CI/CD"}
+            Update: CI/CD"}
